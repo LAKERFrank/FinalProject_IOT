@@ -1,9 +1,5 @@
 # Fastiball: Auto ball return system
 ![](https://i.imgur.com/thcTYaY.png)
-## Table of Contents
-
-[TOC]
-
 
 ## 1. Introduction
 ### Why we need ball return system
