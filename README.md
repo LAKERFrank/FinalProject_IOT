@@ -38,11 +38,12 @@ Despite being a tremendous product with heavy weight and can only be used out do
 * 
 ## 5. Demo
 * [Servo_baffle Test](https://youtu.be/iG8yXcTiKDs)
-    To stuck the ball until spin is complete
+    * To stuck the ball until spin is complete
 * [Micro Switch Test](https://youtu.be/kuMZI8M_fRk)
-    To count how many ball I make it
+    * To count how many ball I make it
 * [Micro switch & Servo_baffle Combine Test](https://youtu.be/FsahKTZwoSs)
-    To count how many ball I make it and open the gate
+    * To count how many ball I make it and open the gate
 * Recognize people with picamera
-* Complete Fastiball
+* Completed Fastiball
+
 
