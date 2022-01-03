@@ -172,9 +172,9 @@ while True:
 ```
 
 ## People face detection
-> reference:
-> 1)[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)
-> 2)[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)
+> reference:\
+> 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)\
+> 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)
 ### Step 1. Accessing your webcam
 There is an error when first time I operated cv2 with "sudo". If you encounter this problem as well, you can try to operate the same code without "sudo".
 ```
