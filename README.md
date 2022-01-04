@@ -276,5 +276,7 @@ By using this two, you can use "Dupont Line" to connect with other components ea
 * [Micro switch & Servo_baffle Combine Test](https://youtu.be/FsahKTZwoSs)
     * To count how many ball I make it and open the gate
 * [Recognize people with picamera](https://youtu.be/rObr2gTLL6Y)
+    * To show how detection work
 * [Completed Fastiball](https://youtu.be/tApJQQuppyY)
+    * final project demo
 
