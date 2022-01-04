@@ -11,6 +11,7 @@ ball return systems have been all the rage for well over two decades helping col
 Any player who wants to improve their shot needs a good return system. While there’s nothing wrong with rebounding, being able to sit in one spot gives you better muscle memory from a certain area. It also allows you to get a better feel for an in-game shooting rhythm.
 
 ## 2. Fastiball
+![](https://i.imgur.com/1gOmUcn.jpg)
 ### motivation
 I want to play basketball but pick up the ball that doesn't come to your way is the last thing I want to experience. And mostly I stay in dormitory. In that way, I would like to create some product that can solve my problem. That is Fastiball. 
 ### easier
@@ -172,8 +173,8 @@ while True:
 ```
 
 ## People face detection
-> reference:\
-> 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)\
+>reference:
+> 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)
 > 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)
 ### Step 1. Accessing your webcam
 There is an error when first time I operated cv2 with "sudo". If you encounter this problem as well, you can try to operate the same code without "sudo".
@@ -274,6 +275,6 @@ By using this two, you can use "Dupont Line" to connect with other components ea
     * To count how many ball I make it
 * [Micro switch & Servo_baffle Combine Test](https://youtu.be/FsahKTZwoSs)
     * To count how many ball I make it and open the gate
-* Recognize people with picamera
-* Completed Fastiball
+* [Recognize people with picamera](https://youtu.be/rObr2gTLL6Y)
+* [Completed Fastiball](https://youtu.be/tApJQQuppyY)
 
