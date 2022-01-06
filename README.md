@@ -33,7 +33,7 @@ Despite being a tremendous product with heavy weight and can only be used out do
 * Open-Vino (4.1.2-openvino)
 * Linebot
 * ngrok
-## 4.Circuit Diagram
+## 4. Circuit Diagram
 ### circuit mockup diagrams
 ![](https://i.imgur.com/KbnWg3m.png)
 ### schematic diagrams
