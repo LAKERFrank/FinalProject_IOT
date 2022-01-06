@@ -207,7 +207,7 @@ while True:
 ---
 
 ## People face detection
->reference:\
+>Reference:\
 > 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)\
 > 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)
 ### Step 1. Accessing your webcam
@@ -306,7 +306,7 @@ By using this two, you can use "Dupont Line" to connect with other components ea
 ---
 
 ## Linebot
->reference\
+>Reference\
 >1.[linebot tutorial](https://ithelp.ithome.com.tw/articles/10238680) \
 >2.[linebot github](https://github.com/line/line-bot-sdk-python)
 1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
