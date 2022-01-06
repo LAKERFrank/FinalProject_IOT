@@ -18,7 +18,7 @@ I want to play basketball but pick up the ball that doesn't come to your way is 
 ### easier
 Despite being a tremendous product with heavy weight and can only be used out door. Fastiball can be use indoor or even in the dormitory.
 
-## 3. Require component
+## 3. Require Component
 ### Hardware
 * Raspberry Pi 4
 * servo motor MG995
