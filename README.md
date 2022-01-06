@@ -153,8 +153,8 @@ while True:
                 time.sleep(0.01)
                 print d
 ```
-If you want to add uer to  gpio group, you can check this out.[click here](https://raspberrypi.stackexchange.com/questions/40105/access-gpio-pins-without-root-no-access-to-dev-mem-try-running-as-root)
-By doing this you don't have to use "sudo" to operate the code with gpio
+#### If you want to add uer to  gpio group, you can check this out.[click here](https://raspberrypi.stackexchange.com/questions/40105/access-gpio-pins-without-root-no-access-to-dev-mem-try-running-as-root)
+#### By doing this you don't have to use "sudo" to operate the code with gpio
 
 ---
 
@@ -167,7 +167,7 @@ By doing this you don't have to use "sudo" to operate the code with gpio
 
 ---
 
-On the right side of the upper picture is connect like this.
+#### On the right side of the upper picture is connect like this.
 ![](https://i.imgur.com/lwsLxQS.jpg)
 
 ---
@@ -207,11 +207,11 @@ while True:
 ---
 
 ## People face detection
->Reference:\
+>reference:\
 > 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)\
 > 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)
 ### Step 1. Accessing your webcam
-There is an error when first time I operated cv2 with "sudo". If you encounter this problem as well, you can try to operate the same code without "sudo".
+#### There is an error when first time I operated cv2 with "sudo". If you encounter this problem as well, you can try to operate the same code without "sudo".
 ```
 import numpy as np
 import cv2
@@ -296,7 +296,7 @@ cv2.waitKey(1)
 ---
 
 ## T-cobbler&40P 彩虹排線
-By using this two, you can use "Dupont Line" to connect with other components easier than on raspi.
+#### By using this two, you can use "Dupont Line" to connect with other components easier than on raspi.
 ![](https://i.imgur.com/isP8ZgK.jpg)
 
 ---
@@ -306,32 +306,32 @@ By using this two, you can use "Dupont Line" to connect with other components ea
 ---
 
 ## Linebot
->Reference\
+>reference:\
 >1.[linebot tutorial](https://ithelp.ithome.com.tw/articles/10238680) \
 >2.[linebot github](https://github.com/line/line-bot-sdk-python)
-1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
-2. Create a provider
+#### 1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
+#### 2. Create a provider
 ![](https://i.imgur.com/8wzb1hX.png)
-3. Click "create"
-4. Click "Messenger API channel"
+#### 3. Click "create"
+#### 4. Click "Messenger API channel"
 ![](https://i.imgur.com/lT7i1w5.png)
-5. Fill in the following information then click "create"
-6. Move to  "Messaging API"
+#### 5. Fill in the following information then click "create"
+#### 6. Move to  "Messaging API"
 ![](https://i.imgur.com/TJSIubi.png)
-7. Find "Channel access token " at the buttom of the page then click "issue"(Remember it!)
-8. Move to "Basic settings"
+#### 7. Find "Channel access token " at the buttom of the page then click "issue"(Remember it!)
+#### 8. Move to "Basic settings"
 ![](https://i.imgur.com/A7UzdTQ.png)
-9. Find "Channel secret"(Remember it!)
-10. Open ```easylinebot.py``` above
-11. Fill in "Channel access token " and "Channel secret" 
-12. Sign up a [ngrok](https://ngrok.com/) account and download
-13. Open ngrok command window and type the code below
+#### 9. Find "Channel secret"(Remember it!)
+#### 10. Open ```easylinebot.py``` above
+#### 11. Fill in "Channel access token " and "Channel secret" 
+#### 12. Sign up a [ngrok](https://ngrok.com/) account and download
+#### 13. Open ngrok command window and type the code below
 ```
 ./ngrok http 80
 ```
-14. Duplicate second Forwarding "http.....io" and paste it to webhook then type "/callback" behind but don't click "Verify"
+#### 14. Duplicate second Forwarding "http.....io" and paste it to webhook then type "/callback" behind but don't click "Verify"
 ![](https://i.imgur.com/2pTp1yD.jpg)
-15. execute ```easylinebot.py``` then click "Verify". If you see "Success". Contratulation! your linebot is completed.
+#### 15. execute ```easylinebot.py``` then click "Verify". If you see "Success". Contratulation! your linebot is completed.
 
 ---
 
@@ -349,5 +349,6 @@ By using this two, you can use "Dupont Line" to connect with other components ea
     * To show how my line bot control my device
 * [Completed Fastiball](https://youtu.be/tApJQQuppyY)
     * final project demo
+
 
 
