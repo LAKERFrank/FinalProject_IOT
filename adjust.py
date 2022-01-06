@@ -54,14 +54,19 @@ upper=Servo(servo_upper)
 def handle_message(event):
     msg = event.message.text
     if(msg=="upperl"):
+        sleep(1)
         upper.max()
     if(msg=="upperc"):
+        sleep(1)
         upper.mid()
     if(msg=="underl"):
+        sleep(1)
         under.max()
     if(msg=="underc"):
+        sleep(1)
         under.mid()
     if(msg=="underr"):
+        sleep(1)
         under.min()
     line_bot_api.reply_message(event.reply_token, TextSendMessage(text = msg))
 
