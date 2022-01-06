@@ -18,7 +18,7 @@ I want to play basketball but pick up the ball that doesn't come to your way is 
 ### easier
 Despite being a tremendous product with heavy weight and can only be used out door. Fastiball can be use indoor or even in the dormitory.
 
-## 3. Require Component
+## 3. Require component
 ### Hardware
 * Raspberry Pi 4
 * servo motor MG995
@@ -40,33 +40,7 @@ Despite being a tremendous product with heavy weight and can only be used out do
 ![](https://i.imgur.com/9lYlml4.png)
 
 ## 5. Tutorial
-## linebot
->reference\
->1.https://ithelp.ithome.com.tw/articles/10238680
->2.https://github.com/line/line-bot-sdk-python
-1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
-2. Create a provider
-![](https://i.imgur.com/8wzb1hX.png)
-3. Click "create"
-4. Click "Messenger API channel"
-![](https://i.imgur.com/lT7i1w5.png)
-5. Fill in the following information then click "create"
-6. Move to  "Messaging API"
-![](https://i.imgur.com/TJSIubi.png)
-7. Find "Channel access token " at the buttom of the page then click "issue"(Remember it!)
-8. Move to "Basic settings"
-![](https://i.imgur.com/A7UzdTQ.png)
-9. Find "Channel secret"(Remember it!)
-10. Open "easylinebot.py" above
-11. Fill in "Channel access token " and "Channel secret" 
-12. Sign up a [ngrok](https://ngrok.com/) account and download
-13. Open ngrok command window and type the code below
-```
-./ngrok http 80
-```
-14. Duplicate second Forwarding "http.....io" and paste it to webhook then type "/callback" behind but don't click "Verify"
-![](https://i.imgur.com/2pTp1yD.jpg)
-15. execute easylinebot.py then click "Verify". If you see "Success". Contratulation! your linebot is completed.
+
 ## servo motor
 ![](https://i.imgur.com/dWOgVwW.png)
 * [gpiozero](https://www.raspberrypi-spy.co.uk/2018/02/basic-servo-use-with-the-raspberry-pi/)
@@ -307,6 +281,33 @@ cv2.waitKey(1)
 By using this two, you can use "Dupont Line" to connect with other components easier than on raspi.
 ![](https://i.imgur.com/isP8ZgK.jpg)
 
+## linebot
+>reference\
+>1.https://ithelp.ithome.com.tw/articles/10238680
+>2.https://github.com/line/line-bot-sdk-python
+1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
+2. Create a provider
+![](https://i.imgur.com/8wzb1hX.png)
+3. Click "create"
+4. Click "Messenger API channel"
+![](https://i.imgur.com/lT7i1w5.png)
+5. Fill in the following information then click "create"
+6. Move to  "Messaging API"
+![](https://i.imgur.com/TJSIubi.png)
+7. Find "Channel access token " at the buttom of the page then click "issue"(Remember it!)
+8. Move to "Basic settings"
+![](https://i.imgur.com/A7UzdTQ.png)
+9. Find "Channel secret"(Remember it!)
+10. Open ```easylinebot.py``` above
+11. Fill in "Channel access token " and "Channel secret" 
+12. Sign up a [ngrok](https://ngrok.com/) account and download
+13. Open ngrok command window and type the code below
+```
+./ngrok http 80
+```
+14. Duplicate second Forwarding "http.....io" and paste it to webhook then type "/callback" behind but don't click "Verify"
+![](https://i.imgur.com/2pTp1yD.jpg)
+15. execute ```easylinebot.py``` then click "Verify". If you see "Success". Contratulation! your linebot is completed.
 
 ---
 
@@ -326,4 +327,5 @@ By using this two, you can use "Dupont Line" to connect with other components ea
     * To show how my line bot control my device
 * [Completed Fastiball](https://youtu.be/tApJQQuppyY)
     * final project demo
+
 
