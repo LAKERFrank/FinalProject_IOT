@@ -10,6 +10,9 @@ ball return systems have been all the rage for well over two decades helping col
 ### Who should get one
 Any player who wants to improve their shot needs a good return system. While there’s nothing wrong with rebounding, being able to sit in one spot gives you better muscle memory from a certain area. It also allows you to get a better feel for an in-game shooting rhythm.
 
+
+---
+
 ## 2. Fastiball
 ![](https://i.imgur.com/1gOmUcn.jpg)
 
@@ -17,6 +20,9 @@ Any player who wants to improve their shot needs a good return system. While the
 I want to play basketball but pick up the ball that doesn't come to your way is the last thing I want to experience. And mostly I stay in dormitory. In that way, I would like to create some product that can solve my problem. That is Fastiball. 
 ### easier
 Despite being a tremendous product with heavy weight and can only be used out door. Fastiball can be use indoor or even in the dormitory.
+
+
+---
 
 ## 3. Require component
 ### Hardware
@@ -33,16 +39,25 @@ Despite being a tremendous product with heavy weight and can only be used out do
 * Open-Vino (4.1.2-openvino)
 * Linebot
 * ngrok
-## 4. Circuit Diagram
+
+---
+
+## 4.Circuit Diagram
 ### circuit mockup diagrams
 ![](https://i.imgur.com/KbnWg3m.png)
 ### schematic diagrams
 ![](https://i.imgur.com/9lYlml4.png)
 
+
+---
+
 ## 5. Tutorial
 
 ## servo motor
 ![](https://i.imgur.com/dWOgVwW.png)
+
+---
+
 * [gpiozero](https://www.raspberrypi-spy.co.uk/2018/02/basic-servo-use-with-the-raspberry-pi/)
 ![](https://i.imgur.com/R3juOVL.png)
     * For 90 degree:
@@ -96,6 +111,9 @@ Despite being a tremendous product with heavy weight and can only be used out do
         else:
             break
     ```
+
+---
+
 * [gpio](https://tutorials-raspberrypi.com/raspberry-pi-servo-motor-control/)
 ```
 +90°：( 0.8 ms ／ 20 ms ) * 100 = 4
@@ -281,9 +299,15 @@ cv2.waitKey(1)
 By using this two, you can use "Dupont Line" to connect with other components easier than on raspi.
 ![](https://i.imgur.com/isP8ZgK.jpg)
 
+---
+
+![](https://i.imgur.com/Ffv35Bm.jpg)
+
+---
+
 ## linebot
 >reference\
->1.https://ithelp.ithome.com.tw/articles/10238680
+>1.https://ithelp.ithome.com.tw/articles/10238680\
 >2.https://github.com/line/line-bot-sdk-python
 1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
 2. Create a provider
@@ -310,8 +334,6 @@ By using this two, you can use "Dupont Line" to connect with other components ea
 15. execute ```easylinebot.py``` then click "Verify". If you see "Success". Contratulation! your linebot is completed.
 
 ---
-
-![](https://i.imgur.com/Ffv35Bm.jpg)
 
 
 ## 6. Demo
