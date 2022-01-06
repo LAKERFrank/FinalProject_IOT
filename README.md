@@ -305,7 +305,7 @@ By using this two, you can use "Dupont Line" to connect with other components ea
 
 ---
 
-## linebot
+## Linebot
 >reference\
 >1.https://ithelp.ithome.com.tw/articles/10238680\
 >2.https://github.com/line/line-bot-sdk-python
