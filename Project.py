@@ -79,13 +79,13 @@ while(True):
     cv2.imshow('frame',frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-    if(count_l==15):
+    if(count_l==10):
       turn_l=True
       break
-    if(count_r==15):
+    if(count_r==10):
       turn_r=True
       break
-    if(count_c==15):
+    if(count_c==10):
       turn_c=True
       break
     if inputValue==False:
