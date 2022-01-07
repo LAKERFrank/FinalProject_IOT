@@ -209,7 +209,8 @@ while True:
 ## People face detection
 >reference:\
 > 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)\
-> 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)
+> 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)\
+> 3.[More Information](https://docs.opencv.org/3.4.1/d2/de6/tutorial_py_setup_in_ubuntu.html)
 ### Step 1. Accessing your webcam
 #### There is an error when first time I operated cv2 with "sudo". If you encounter this problem as well, you can try to operate the same code without "sudo".
 ```
@@ -307,8 +308,8 @@ cv2.waitKey(1)
 
 ## Linebot
 >reference:\
->1.[linebot tutorial](https://ithelp.ithome.com.tw/articles/10238680) \
->2.[linebot github](https://github.com/line/line-bot-sdk-python)
+>1.[Linebot Tutorial](https://ithelp.ithome.com.tw/articles/10238680) \
+>2.[Linebot Github](https://github.com/line/line-bot-sdk-python)
 #### 1. Sign up a [line developer](https://developers.line.biz/zh-hant/) account
 #### 2. Create a provider
 ![](https://i.imgur.com/8wzb1hX.png)
