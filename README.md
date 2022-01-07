@@ -39,6 +39,7 @@ Despite being a tremendous product with heavy weight and can only be used out do
 * Open-Vino (4.1.2-openvino)
 * Linebot
 * ngrok
+* flask
 
 ---
 
