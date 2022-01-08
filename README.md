@@ -16,11 +16,12 @@ Any player who wants to improve their shot needs a good return system. While the
 ## 2. Fastiball
 ![](https://i.imgur.com/1gOmUcn.jpg)
 
-### motivation
+### Motivation
 I want to play basketball but pick up the ball that doesn't come to your way is the last thing I want to experience. And mostly I stay in dormitory. In that way, I would like to create some product that can solve my problem. That is Fastiball. 
-### easier
+### Easier
 Despite being a tremendous product with heavy weight and can only be used out door. Fastiball can be use indoor or even in the dormitory.
-
+### Eco firendly
+All of the materials is wasted litter except the pipe and the eletronic device. I also want to make them more valuable than just a waste.
 
 ---
 
@@ -44,9 +45,9 @@ Despite being a tremendous product with heavy weight and can only be used out do
 ---
 
 ## 4.Circuit Diagram
-### circuit mockup diagrams
+### Circuit Mockup Diagrams
 ![](https://i.imgur.com/KbnWg3m.png)
-### schematic diagrams
+### Schematic Diagrams
 ![](https://i.imgur.com/9lYlml4.png)
 
 
@@ -54,7 +55,7 @@ Despite being a tremendous product with heavy weight and can only be used out do
 
 ## 5. Tutorial
 
-## servo motor
+## Servo Motor
 ![](https://i.imgur.com/dWOgVwW.png)
 
 ---
@@ -159,7 +160,7 @@ while True:
 
 ---
 
-## Micro switch
+## Micro Switch
 ![](https://i.imgur.com/1c3M5vW.png)
 
 ---
@@ -207,7 +208,7 @@ while True:
 
 ---
 
-## People face detection
+## People Face Detection
 >reference:\
 > 1.[OpenVINO Toolkit](https://github.com/openvinotoolkit/open_model_zoo)\
 > 2.[Real-time Human Detection with OpenCV](https://thedatafrog.com/en/articles/human-detection-video/)\
@@ -351,6 +352,5 @@ cv2.waitKey(1)
     * To show how my line bot control my device
 * [Completed Fastiball](https://youtu.be/tApJQQuppyY)
     * final project demo
-
 
 
