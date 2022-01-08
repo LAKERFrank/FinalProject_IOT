@@ -22,6 +22,8 @@ I want to play basketball but pick up the ball that doesn't come to your way is 
 Despite being a tremendous product with heavy weight and can only be used out door. Fastiball can be use indoor or even in the dormitory.
 ### Eco firendly
 All of the materials is wasted litter except the pipe and the eletronic device. I also want to make them more valuable than just a waste.
+### Function
+Fastiball can detection people's position and turn the direction. Whenever the micro switch is hit by the ball, it will count the amount of the ball that throw into the basket and the gate will open inorder to that the ball can out and roll to the shotter. What shooter should do is just indugle in the joy that Fastiball provide. Enjoy~~~
 
 ---
 
