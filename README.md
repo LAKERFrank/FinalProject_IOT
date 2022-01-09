@@ -163,6 +163,7 @@ while True:
 ---
 
 ## Micro Switch
+### Warning!!! This one is extremely easy to be broken!!!
 ![](https://i.imgur.com/1c3M5vW.png)
 
 ---
