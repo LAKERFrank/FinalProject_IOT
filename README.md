@@ -336,7 +336,7 @@ cv2.waitKey(1)
 ```
 #### 14. Duplicate second Forwarding "http.....io" and paste it to webhook then type "/callback" behind but don't click "Verify"
 ![](https://i.imgur.com/2pTp1yD.jpg)
-#### 15. execute ```easylinebot.py``` then click "Verify". If you see "Success". Contratulation! your linebot is completed.
+#### 15. execute ```easylinebot.py``` then click "Verify". If you see "Success". Congratulation! your linebot is completed.
 
 ---
 
