@@ -48,26 +48,34 @@ servo_under=22
 servo_upper=17
 under=Servo(servo_under)
 upper=Servo(servo_upper)
+upper.max()
 
 # handle msg
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     msg = event.message.text
-    if(msg=="upperl"):
-        sleep(1)
+    if(msg=="關"):
         upper.max()
-    if(msg=="upperc"):
+    if(msg=="開"):
+        upper.mid()
+    if(msg=="左"):
+        under.max()
         sleep(1)
         upper.mid()
-    if(msg=="underl"):
         sleep(1)
-        under.max()
-    if(msg=="underc"):
-        sleep(1)
+        upper.max()
+    if(msg=="中"):
         under.mid()
-    if(msg=="underr"):
         sleep(1)
+        upper.mid()
+        sleep(1)
+        upper.max()
+    if(msg=="右"):
         under.min()
+        sleep(1)
+        upper.mid()
+        sleep(1)
+        upper.max()
     line_bot_api.reply_message(event.reply_token, TextSendMessage(text = msg))
 
 # run app
