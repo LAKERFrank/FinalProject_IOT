@@ -344,15 +344,23 @@ cv2.waitKey(1)
 ## 6. Demo
 * [Servo_baffle Test](https://youtu.be/iG8yXcTiKDs)
     * To stuck the ball until spin is complete
+    * ```ServoMotor_test.py```
 * [Micro Switch Test](https://youtu.be/kuMZI8M_fRk)
     * To count how many ball I make it
+    * ```Button_test.py```
 * [Micro switch & Servo_baffle Combine Test](https://youtu.be/FsahKTZwoSs)
     * To count how many ball I make it and open the gate
 * [Recognize people with picamera](https://youtu.be/rObr2gTLL6Y)
     * To show how detection work
+    * ```Opencv_test.py```
 * [Linebot](https://youtu.be/ivpUhRgLFy8)
     * To show how my line bot control my device
+    * ``` adjust.py```
 * [Completed Fastiball](https://youtu.be/tApJQQuppyY)
     * final project demo
+    * ```Project.py```
+* [Trainning Apply](https://youtu.be/bB-DzbV7MSE)
+    * How it trains for the better shooter
+    * ```trainning.py```
 
 
