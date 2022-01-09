@@ -360,7 +360,7 @@ cv2.waitKey(1)
     * final project demo
     * ```Project.py```
 * [Trainning Apply](https://youtu.be/bB-DzbV7MSE)
-    * How it trains for the better shooter
+    * How it trains for a better shooter
     * ```trainning.py```
 
 
